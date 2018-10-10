@@ -56,6 +56,8 @@ namespace atoiDemo
         }
 
         //static method to check if a value is numeric
+        //requirement was that if i call a method, i have to 
+        //implement it.  cant use tryparse
         static bool isNumeric(char x)
         {
             return  (x >= '0' && x <= '9')? true : false;
